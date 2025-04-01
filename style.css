@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.info {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.info h1 {
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.info h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.info span {
+    color: #ff6f61;
+}
+
+.info a {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.info a:hover {
+    background-color: #ff3b28;
+}
+
+.image{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.image img{
+    position: absolute;
+    height: 140%;
+    width: 220%;
+    left: 80%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.image:hover .girl{
+    right: 55%;
+    height: 220%;
+}
+
+.zapico {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icons a {
+    font-size: 30px;
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+.icons a:hover {
+    color: #ff6f61;
+}
+
+.contact {
+    text-align: center;
+    
+    margin-bottom: 50px;
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.contact p {
+    font-size: 12%;
+    margin-bottom: 5px;
+}
+
+.email-link {
+    font-size: 20px;
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
